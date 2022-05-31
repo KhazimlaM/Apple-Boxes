@@ -1,0 +1,42 @@
+body {
+	font-family: 'Lilita One', serif;
+	font-size: 32px;
+	background-image: url('images/apples2.jpeg');
+
+}
+
+button {
+	font: inherit;
+	width: 5em;
+}
+
+.section {
+	background-color: azure;
+	padding: 0.5em;
+	margin: 0.5em;
+	margin-left: 600px;
+	margin-right: 600px;
+	border-radius: 0.5em;
+	flex: 5;
+}
+
+.second-widget{
+	
+background-color: azure;
+}
+
+
+.header {
+
+	background-color: rgb(228, 62, 62);
+	color: rgb(27, 26, 26);
+	padding: 1em;
+}
+
+
+@media (min-width: 768px) {
+	.sections {
+		display: flex;
+	}
+}
+
