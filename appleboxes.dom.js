@@ -15,17 +15,19 @@ const apple8Element = document.querySelector(".apples8")
  const total1Element = document.querySelector(".total1")
  const total2Element = document.querySelector(".total2")
 
-
+ 
 
 const apples = appleBoxes();
 
 //add an event listener for when the 'calculate' button is pressed
 button1Element.addEventListener('click', () => {
+    alert("hi")
 
     apples.setCostPaid(Number(apple1Element.value));
     apples.setApplesBought(Number(apple2Element.value));
     apples.setApplesToSell(Number(apple3Element.value));
     apples.setDesiredProfit(Number(apple4Element.value));
+        
 
 });
 
